@@ -4,20 +4,19 @@ In order to provide better experience to Galaxy users we plan to work on the fol
 Tool Shed side
 ---------
 
+* refactor out dependency resolution to dedicated library
+  * takes tool_dependencies.xml and generates a bash file
+  * will also be used in Galaxy
 * implement 'pull from github' functionality on TS repositories
+
+Galaxy side
+----------
 * new UI for tool installation on the Galaxy side
   * using TS API
   * installed tool management UI
   * recognize suites
   * hide packages (tabs)
   * providing admin with a choice of dependency resolution plugin
-
-* refactor out dependency resolution to dedicated library
-  * takes tool_dependencies.xml and generates a bash file
-  * will also be used in Galaxy
-
-Galaxy side
-----------
 * allow multiple ways of resolving dependencies on the Galaxy side
   * Tool Shed
   * easy_install
