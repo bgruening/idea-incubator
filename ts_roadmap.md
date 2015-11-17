@@ -19,7 +19,7 @@ Galaxy side
   * providing admin with a choice of dependency resolution plugin
 * allow multiple ways of resolving dependencies on the Galaxy side
   * Tool Shed
-  * easy_install
+  * easy_build
   * docker
   * guix
   * brew
